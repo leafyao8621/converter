@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>変換</title>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <p id = "iind">入力（英）</p>
+        <textarea rows = "10" cols = "80" id = "inp"></textarea>
+        <br>
+        <button type = "button" onclick = "conv()" style = "height: 30px">
+            変換
+        </button>
+        <button
+         type = "button"
+         onclick = "change_mode()"
+         style = "height: 30px">
+            切り替え
+        </button>
+        <button type = "button" onclick = "remove()" style = "height: 30px">
+            削除
+        </button>
+        <p id = "oind">出力（日）</p>
+        <textarea readonly rows = "10" cols = "80" id = "opt"></textarea>
+    </body>
+</html>
